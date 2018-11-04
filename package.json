@@ -1,0 +1,32 @@
+{
+  "name": "lard",
+  "version": "1.0.5",
+  "description": "Template render engine.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "prettier": "prettier --write '{,!(node_modules)/**/}*.js'",
+    "dev": "nodemon -e js,html,json -x npm t",
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derekchuank/lard.git"
+  },
+  "keywords": [
+    "HTML",
+    "template",
+    "render"
+  ],
+  "author": "derekchuank",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derekchuank/lard/issues"
+  },
+  "homepage": "https://github.com/derekchuank/lard#readme",
+  "devDependencies": {
+    "require-dir-lite": "^1.0.0"
+  }
+}
